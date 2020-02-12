@@ -17,10 +17,10 @@ compose(
   map(u => u.name),
   filter(u => u.age >= 14)
   
-)(users) //["Jack", "Milady"]
+)(users) 
 
 pipe(  
   filter(u => u.age >= 14),
   map(u => u.name),
     sort((a,b)=>(a.length-b.length))
-)(users) //["Jack", "Milady"]
+)(users) 
