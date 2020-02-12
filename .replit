@@ -1,2 +1,2 @@
 language = "bash"
-run = "node partial_application.js"
+run = "node pipe_and_compose_multiargs.js"
